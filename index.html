@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quinta Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/8.jpg','imagenes/20.jpg','imagenes/30.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Dia De La Tierra</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>¿En que consiste el dia de la Tierra?</h1>
+         <div>  
+         <p>El<strong> Día de la Tierra</strong> es un día celebrado en muchos países el 22 de abril. Su promotor, el senador estadounidense Gaylord Nelson, instauró este día para crear una conciencia común a los problemas de la superpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra. Es un día para rendir homenaje a nuestro planeta y reconocer a la Tierra como nuestro hogar y nuestra madre, así como lo han expresado distintas culturas a lo largo de la historia, demostrando la interdependencia entre sus ecosistemas y los seres vivos que la habitamos.
+         El Día de la Tierra no es una fiesta nacional. Si bien no existe una organización central, muchas organizaciones no gubernamentales trabajan para registrar las miles de actividades locales en escuelas y parques que marcan el día.</p> 
+         <!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:400px;height:300px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com --> 
+         <br>
+         <p>
+        <strong> Historia</strong>
+        <br>
+La Tierra es nuestro planeta y el único habitado. Está situado en la ecosfera, un espacio que rodea al Sol y que tiene las condiciones adecuadas para que exista vida.
+
+La primera manifestación tuvo lugar el 22 de abril de 1970, promovida por el senador y activista ambiental Gaylord Nelson, para la creación de una agencia ambiental. En esta convocatoria participaron dos mil universidades, diez mil escuelas (primarias y secundarias) y centenares de comunidades. La presión social tuvo sus logros y el gobierno de los Estados Unidos creó la Environmental Protection Agency (Agencia de Protección Ambiental) y una serie de leyes destinadas a la protección del medio ambiente.4
+
+En 1972 se celebró la primera conferencia internacional sobre el medio ambiente. La Cumbre de la Tierra de Estocolmo, cuyo objetivo fue sensibilizar a los líderes mundiales sobre la magnitud de los problemas ambientales.
+</p>
+<br>
+<center>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/8.jpg',1)"><img src="imagenes/7.jpg" width="40%" height="55%" id="Image16"></a>
+<p>
+El Día de la Tierra, que empezó en 1970 como un movimiento de protesta, ha evolucionado hacia una celebración global del medio ambiente y de nuestro compromiso con su protección. La historia del Día de la Tierra refleja el crecimiento de la consciencia ambiental en el transcurso del último cuarto de siglo, y el legado del Día de la Tierra es la noción inequívoca de que el medio ambiente es objeto de inquietud universal.
+"No olviden nunca, si quieren que la nación tome grandes decisiones sobre aspectos políticos, que el pueblo es la fuente del poder. Con él pueden hacer cualquier cosa, sin él, nada". Gaylord Nelson, Fundador del Día de la Tierra
+</p>
+
+
+ <a href="http://www.eco2site.com/Informe-405-22-de-abril-Dia-Mundial-de-la-Tierra-">Para Más Imformacion Click aqui!</a>
+ </center>
+
+         </div>
+       </div>
+     </div>
+     
+     
+        
+<div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Nuestro inpacto en el medio ambiente</h2>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>¿Que cambios positivos debemos hacer?</h2>
+      </a>
+    </li>
+  </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+   <div>
+      <img src="imagenes/earth-icon.png"width="46" height="46">
+   </div>
+   <div>
+     <h4>Aplicacion cinco</h4>
+     <h4>Carranza Martinez Sergio Ari</h4>
+   </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="b">
+    <h1>Como afectamos al mundo</h1>
+    </div>
+   <div data-role="content" align="center">
+    </div>
+   <p>Los humanos afectamos al medio ambiente con casi todo lo que hacemos. Hay algunas cosas que podemos cambiar para reducir al contaminación que nuestro día a día produce, pero hay algunas cosas que simplemente son como son.</p>
+   <br>
+   <center>
+   <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','imagenes/20.jpg',1)"><img src="imagenes/21.jpg" width="45%" height="35%" id="Image3"></a></div>
+   <br>
+   <p>Un ecosistema es un sistema vivo que incluye el sol como fuente de energía, el suelo, las rocas, el agua, el aire, la flora y los seres vivos. Los humanos sólo somos una parte de un ecosistema, pero muchas personas creen que tenemos un efecto desproporcionado. Nuestras acciones tienden a afectar no sólo a nuestros alrededores, sino al mundo en general. Para vivir más responsablemente con la tierra, debemos entender cómo las cosas que hacemos pueden tener efectos duraderos. </p>
+   <div><img src="imagenes/12.jpg" width="45%"></div>
+   <p><strong>1. Desechos</strong>
+   <br>
+
+Solamente en los Estados Unidos se desechan al año un promedio de 250 millones de toneladas de basura al año, de los cuales alrededor de un tercio se recicla. Una mejora substancial, ya que en los años 70 solo reciclaban el 6% de su basura.
+
+Los desechos tóxicos representan una cantidad aún mayor, y en algunos países ni siquiera hay cultura de reciclaje, lo que quiere decir que muchos desechos simplemente permanecen en la tierra contaminando por cientos de años porque no se descomponen de manera natural. </p>
+<div><img src="imagenes/23.jpg" width="45%"></div>
+<br>
+<p><strong>2. Contaminación del aire</strong>
+<br>
+
+Los humanos crean contaminación en el aire conduciendo vehículos que usan gasolina en lugar de autos híbridos que usan energías alternativas. La mayoría de las plantas industriales esparcen químicos al aire como gases y humo contaminándolo aún mas.</p>
+<div><img src="imagenes/25.jpg" width="45%"></div>
+<br>
+<p><strong>3. Contaminación del agua</strong>
+<br>
+
+Las industrias y sus desechos químicos llenos de toxinas han encontrado su camino a nuestros ríos y océanos. Muy a menudo estos químicos contaminan los cuerpos de agua de maneras tan intensas que deja de ser seguro para los humanos y animales consumirla, incluso nadar en ella.</p>
+<div><img src="imagenes/10.jpg" width="45%"></div>
+<br>
+<p><strong>4. Deforestación</strong>
+<br>
+
+Mientras mas crece la población, mayor se hace la necesidad de áreas donde vivir. Los humanos no contribuyen en el ciclo de las plantas y el agua para prevenir la erosión del suelo. Lamentablemente, gracias la deforestación los bosques del planeta han reducido su área a la mitad en los últimos 11000 años. </p>
+<div><img src="imagenes/26.jpg" width="45%"></div>
+<br>
+<p><strong>5. Destrucción de la capa de ozono</strong>
+<br>
+
+La capa de ozono de la tierra, que nos protege de radiaciones ultravioletas dañinas, se ha dañado por el uso de clorofluorocarbonos. Estos son químicos hechos por el hombre, como los que usan los aerosoles, los equipos refrigerantes, y otras sustancias liberadas por las compañías industriales. </p>
+<div><img src="imagenes/29.jpg" width="45%"></div>
+<br>
+</center>
+   <div data-role="footer" data-theme="b">
+     <h4>Carranza Martinez Sergio Ari</h4>
+   </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="b">
+    <h1>Como ayudar al medio ambiente</h1>
+    </div>
+   <div data-role="content" align="center">
+    <div>
+     <h2>Enterder la importancia de nuestro Planeta</h2>
+    </div>
+    </div>
+    <center>
+    <p>¿Te preocupa la salud de nuestro planeta y estás preparado para hacer lo que esté en tus manos para salvarlo? Con la oleada de malas noticias sobre el calentamiento global, los océanos moribundos y los animales en peligro de extinción que recibimos a diario, es difícil saber dónde empezar. Podría parecer que las acciones de una sola persona no marcarán la diferencia, pero en realidad existen muchas maneras en las que podrás ayudar. Lee el paso 1 para que aprendas cómo el cambio de tus hábitos personales y educar a los demás podrá generar un gran impacto. </p>
+    <br>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/30.jpg',1)"><img src="imagenes/1.jpg" width="300" height="280" id="Image10"></a>
+    <br>
+    <p><strong>1 Ahorra el agua en casa.</strong>
+    <br> Desperdiciar el agua es una de las maneras más nocivas de impactar la salud del planeta. Tomar la decisión de usar menos agua es algo que podrás a hacer de inmediato. Si vives en un área en donde escasea el agua, esta decisión será incluso mucho más importante para la salud del medioambiente de tu región.  </p>
+    <br>
+    <div><img src="imagenes/35.jpg" width="45%"></div>
+    <br>
+    <p><strong>2 Usa menos electricidad.</strong>
+    <br> El carbón y el gas natural son las fuentes de energía más comunes que se convierten en electricidad. La quema de estas substancias es un factor determinante en la contaminación mundial del aire. Reducir tu dependencia de la electricidad será excelente para que contribuyas a salvar el planeta. Esto es lo que puedes hacer:
+Haz uso de la energía solar para la calefacción del hogar y del agua.
+Apaga los equipos eléctricos en la noche cuando te vayas del trabajo.
+Si tienes aire acondicionado central, no cierres las rejillas de las habitaciones que no se usan.
+Baja el termostato del calentador de agua a 50 °C (120 °F).
+Baja o apaga el calentador de agua cuando estés ausente por periodos largos de tiempo.
+Apaga las luces que no uses cuando salgas de una habitación por un momento breve.
+    </p>
+    <div><img src="imagenes/11.jpg" width="45%"></div>
+    <br>
+    <p><strong>3 Proteger la salud de los suelos.</strong>
+        <br>
+Produce menos desechos. Todo lo que tires a la basura, lo pongas en una bolsa y lo saques a la calle para que lo recojan terminará en un vertedero. Además, toda esa basura (plástico, papel, metal y demás) probablemente haya sido elaborada con prácticas no sostenibles que dañan la salud de los suelos de la Tierra. Al producir menos basura, podrás reducir tu impacto.</p>
+<div><img src="imagenes/36.jpg"width="45%"></div>
+<br>
+<p><strong> 4 Ayudar a proteger a los animales.</strong>
+<br>
+Haz que tu propiedad sea un santuario animal. Todas las especies (las aves, los venados, los insectos) han perdido parte de su hábitat por culpa del desarrollo humano. Es probable que hayas visto aves bañándose en agua contaminada con petróleo y algunos venados vagando en las zonas alejadas de la ciudad porque no tienen adónde ir. Si tienes el espacio suficiente, procura acoger a aquellos animales necesitados de alguien. 
+</p>
+<div><img src="imagenes/37.jpg"width="45%"></div>
+<br>
+<p><strong> 5 Ahorrar la energía.</strong>
+<br>
+Usa bombillas externas solares. Estas bombillas vienen con baterías recargables que se cargan con el sol durante el día.
+<br>
+
+Usa el sol para calentar el agua caliente. Infórmate y consulta en los centros de electrodomésticos locales, esta tecnología está más disponible de lo que piensas.
+<br>
+Instala una bombilla nocturna con sensor de movimiento de bajo voltaje para el baño. La luz brillante te despertará, así que una bombilla de bajo voltaje será lo mejor y también ahorrarás energía.</p>
+<div><img src="imagenes/40.jpg"width="45%"></div>
+ <br>
+ <p><strong>Algunos Consejos:</strong>
+ <br>
+ 1.-Dependiendo de tu edad y experiencia, consulta con un adulto para que te ayude a reciclar. Haz que sea un proyecto familiar.
+ <br>
+ 2.-Si eres del tipo artístico, podrás hacer algunos artículos de buena calidad al reciclar.
+ <br>
+3.-Al reciclar ayudarás a salvar la humanidad.
+<br>
+4.-Podrás ganar dinero al reciclar. Si en tu comunidad existe esta opción, vende las latas que haya en tu casa o las que encuentres en la calle.
+<br>
+5.-Lleva botellas al centro de botellas, usa el jardín cortado para hacer composta, recicla papel y ¡pídeles a todos (familiares y amigos) que te ayuden!
+<br>
+6.-Lleva las botellas de gaseosa al centro local de reciclaje. Te darán monedas de 5 o 10 centavos, pero te sorprenderá lo rápido que se acumularán .
+  </p>
+    </center>
+<div data-role="footer" data-theme="b">
+    <h4>Carrranza Martinez Sergio Ari </h4>
+    </div>
+   </div>
+</div>
+
+</body>
+</html>
